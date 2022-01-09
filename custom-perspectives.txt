@@ -1,0 +1,17 @@
+# The user is free to add new and custom perspectives here, including replacements for standard ones
+# Dynmap's install will not overwrite it
+perspectives:
+  - class: org.dynmap.hdmap.IsoHDPerspective
+    name: end_bottom_map
+    maximumheight: 62
+    minimumheight: 1
+    inclination: 90
+    scale: 4
+    azimuth: 180
+  - class: org.dynmap.hdmap.IsoHDPerspective
+    name: end_bottom_map_side
+    maximumheight: 62
+    minimumheight: 1
+    inclination: 60
+    scale: 4
+    azimuth: 135

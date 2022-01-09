@@ -1,0 +1,70 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas:
+            area_1:
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.0
+                boostFlag: true
+                strokeWeight: 3
+                label: Boost
+                fillColor: 16711935
+                world: world_res
+                x:
+                - 80.0
+                - 336.0
+                z:
+                - 0.0
+                - -256.0
+                ybottom: 64.0
+                strokeColor: 16711935
+                strokeOpacity: 0.0
+            area_2:
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.0
+                boostFlag: true
+                strokeWeight: 3
+                label: Boost_flat
+                fillColor: 16711935
+                world: world_flat_res
+                x:
+                - 80.0
+                - 336.0
+                z:
+                - -256.0
+                - 0.0
+                ybottom: 64.0
+                strokeColor: 16711680
+                strokeOpacity: 0.0
+        label: markers
+        markers:
+            marker_1:
+                world: world
+                markup: false
+                x: 10.0
+                icon: house
+                y: 64.0
+                z: 10.0
+                label: test
+            _sign_world_208_65_-149:
+                world: world
+                markup: true
+                x: 208.5
+                icon: church
+                y: 65.5
+                z: -148.5
+                label: a thing
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

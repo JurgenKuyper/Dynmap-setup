@@ -1,0 +1,10 @@
+%YAML 1.1
+---
+invZoomOut:
+    surfacesvh3:
+    - &id001 [
+        ]
+    - [
+        ]
+    - *id001
+    - *id001

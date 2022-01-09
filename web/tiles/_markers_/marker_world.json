@@ -1,0 +1,9 @@
+{"sets": {"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "markers","markers": {"_spawn_world": {"markup": false,"x": 208.00,"icon": "world","y": 63.00,"dim": "16x16","z": -128.00,"label": "Spawn"}
+,"_sign_world_208_65_-149": {"markup": true,"x": 208.50,"icon": "church","y": 65.50,"dim": "16x16","z": -148.50,"label": "a thing"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1641142783958}

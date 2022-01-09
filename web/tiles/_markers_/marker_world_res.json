@@ -1,0 +1,11 @@
+{"sets": {"markers": {"hide": false,"circles": {}
+,"areas": {"area_1": {"fillcolor": "#FF00FF","ytop": 64.00,"color": "#FF00FF","markup": false,"x": [80.00,336.00]
+,"weight": 3,"z": [0.00,-256.00]
+,"ybottom": 64.00,"label": "Boost","opacity": 0.00,"fillopacity": 0.00}
+}
+,"label": "markers","markers": {"_spawn_world_res": {"markup": false,"x": 208.00,"icon": "world","y": 63.00,"dim": "16x16","z": -128.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1641142783958}
