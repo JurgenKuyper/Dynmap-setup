@@ -1177,7 +1177,7 @@ worlds:
         z1: 0
     hiddenlimits: [
         ]
-    hidestyle: stone
+    hidestyle: air
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: flat
