@@ -633,19 +633,7 @@ worlds:
 -   name: world_flat_res
     title: world_flat_resolutions
     enabled: true
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
     extrazoomout: 2
-    visibilitylimits:
-    -   x0: 80
-        z0: -256
-        x1: 336
-        z1: 0
-    hiddenlimits: [
-        ]
-    hidestyle: air
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: flatsvl
@@ -745,6 +733,18 @@ worlds:
         boostzoom: 3
         append_to_world: ''
         protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: air
 -   name: world_flat_shaders
     title: world_flat_shaders
     enabled: true
@@ -1162,3 +1162,59 @@ worlds:
     hiddenlimits: [
         ]
     hidestyle: air
+-   name: Helper_Favorites
+    title: Helper_Favorites
+    enabled: true
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    extrazoomout: 2
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: stone
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: Flat
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 5
+        mapzoomout: 3
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: Surface
+        prefix: t
+        perspective: iso_SE_30_hires
+        shader: inhabited
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 5
+        boostzoom: 2
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: Gene
+        title: Gene
+        prefix: Gene
+        perspective: iso_SE_30_hires
+        shader: default
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 3
+        boostzoom: 3
+        append_to_world: ''
+        protected: false

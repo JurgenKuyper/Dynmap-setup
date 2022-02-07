@@ -23,19 +23,19 @@ deftemplatesuffix: hi_boost_xhi
 #  postgres: PostgreSQL database, at hostname:port in database, accessed via userid with password
 storage:
   # Filetree storage (standard tree of image files for maps)
-  type: mysql
+  #type: filetree
   # SQLite db for map storage (uses dbfile as storage location)
   #type: sqlite
   #dbfile: dynmap.db
   # MySQL DB for map storage (at 'hostname':'port' with flags "flags" in database 'database' using user 'userid' password 'password' and table prefix 'prefix')
-  #type: mysql
+  type: mysql
   hostname: 192.168.178.49
   port: 3306
   database: DynmapSetup
   userid: dynmapSetup
   password: Dynmap
   prefix: ""
-  flags: "?allowReconnect=true&autoReconnect=true&connectTimeout=0"
+  flags: "?allowReconnect=true&autoReconnect=true&connectTimeout=0&useSSL=False"
   
 components:
   - class: org.dynmap.ClientConfigurationComponent
@@ -361,7 +361,7 @@ progressloginterval: 100
 # Parallel fullrender: if defined, number of concurrent threads used for fullrender or radiusrender
 #   Note: setting this will result in much more intensive CPU use, some additional memory use.  Caution should be used when
 #  setting this to equal or exceed the number of physical cores on the system.
-parallelrendercnt: 4
+parallelrendercnt: 6
 
 # Interval the browser should poll for updates.
 updaterate: 2000

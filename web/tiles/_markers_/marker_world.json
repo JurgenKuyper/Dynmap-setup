@@ -1,9 +1,12 @@
 {"sets": {"markers": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "markers","markers": {"_spawn_world": {"markup": false,"x": 208.00,"icon": "world","y": 63.00,"dim": "16x16","z": -128.00,"label": "Spawn"}
-,"_sign_world_208_65_-149": {"markup": true,"x": 208.50,"icon": "church","y": 65.50,"dim": "16x16","z": -148.50,"label": "a thing"}
+,"label": "markers","markers": {"_spawn_world": {"markup": false,"x": 205.00,"icon": "world","y": 64.00,"dim": "16x16","z": -143.00,"label": "Spawn"}
+,"_sign_world_201_64_-136": {"markup": true,"x": 201.50,"icon": "sign","y": 64.50,"dim": "16x16","z": -135.50,"label": "todo: crops<br \/>path?"}
+,"_sign_world_221_64_-147": {"markup": true,"x": 221.50,"icon": "sign","y": 64.50,"dim": "16x16","z": -146.50,"label": "todo: saplings<br \/>todo:example tree"}
+,"_sign_world_147_65_-120": {"markup": true,"x": 147.50,"icon": "sign","y": 65.50,"dim": "16x16","z": -119.50,"label": "Command Only<br \/>and Impossible<br \/>Blocks"}
+,"_sign_world_195_63_-149": {"markup": true,"x": 195.50,"icon": "sign","y": 63.50,"dim": "16x16","z": -148.50,"label": "custom head"}
 }
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1641142783958}
+,"timestamp": 1644235847607}

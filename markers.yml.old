@@ -47,22 +47,30 @@ sets:
                 strokeOpacity: 0.0
         label: markers
         markers:
-            marker_1:
-                world: world
-                markup: false
-                x: 10.0
-                icon: house
-                y: 64.0
-                z: 10.0
-                label: test
-            _sign_world_208_65_-149:
+            _sign_world_221_64_-147:
                 world: world
                 markup: true
-                x: 208.5
-                icon: church
+                x: 221.5
+                icon: sign
+                y: 64.5
+                z: -146.5
+                label: 'todo: saplings<br/>todo:example tree'
+            _sign_world_147_65_-120:
+                world: world
+                markup: true
+                x: 147.5
+                icon: sign
                 y: 65.5
+                z: -119.5
+                label: Command Only<br/>and Impossible<br/>Blocks
+            _sign_world_195_63_-149:
+                world: world
+                markup: true
+                x: 195.5
+                icon: sign
+                y: 63.5
                 z: -148.5
-                label: a thing
+                label: custom head
         lines: {
             }
         layerprio: 0

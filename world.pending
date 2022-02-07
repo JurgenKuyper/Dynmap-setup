@@ -1,0 +1,27 @@
+%YAML 1.1
+---
+job:
+    mapindex: -1
+    czmax: 2147483647
+    activemaps:
+    cxmax: 2147483647
+    renderedmaps: [
+        ]
+    locZ: -143.0
+    count: 0
+    locX: 205.0
+    locY: 64.0
+    rendertype: Full render
+    timeaccum: 0
+    world: world
+    found: [
+        ]
+    rendered: [
+        ]
+    activemapcnt: 0
+    cxmin: -2147483648
+    czmin: -2147483648
+    map: ''
+    queue: [
+        ]
+    player: ''
