@@ -1,0 +1,47 @@
+[Unit]
+Description=Minecraft Server %i
+After=network.target
+ 
+[Service]
+WorkingDirectory=/opt/minecraft/%i
+PrivateUsers=true # Users Database is not available for within the unit, only root and minecraft is available, everybody else is nobody
+User=minecraft
+Group=minecraft
+ProtectSystem=full # Read only mapping of /usr /boot and /etc
+ProtectHome=true # /home, /root and /run/user seem to be empty from within the unit. It is recommended to enable this setting for all long-running services (in particular network-facing ones).
+ProtectKernelTunables=true # /proc/sys, /sys, /proc/sysrq-trigger, /proc/latency_stats, /proc/acpi, /proc/timer_stats, /proc/fs and /proc/irq will be read-only within the unit. It is recommended to turn this on for most services.
+# Implies MountFlags=slave
+ProtectKernelModules=true # Block module system calls, also /usr/lib/modules. It is recommended to turn this on for most services that do not need special file systems or extra kernel modules to work
+# Implies NoNewPrivileges=yes
+ProtectControlGroups=true # It is hence recommended to turn this on for most services.
+# Implies MountAPIVFS=yes
+ExecStartPre=/bin/sh /etc/systemd/system/mcupdate.sh 
+ExecStart=/bin/sh -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -server -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:-OmitStackTraceInFastThrow -XX:+AlwaysPreTouch  -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=8 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -Xms1G -Xmx8G -Dusing.aikars.flags=true -Daikars.new.flags=true -jar $(ls -v | grep -i "Forge2847.*jar\|spigot.*jar\|paper.*jar\|waterfall.*jar" | head -n 1) nogui'
+
+ExecReload=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff "reload confirm"\\015'
+
+ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff "say SERVER SHUTTING DOWN. Saving map..."\\015'
+ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff "save-all"\\015'
+ExecStop=/usr/bin/screen -p 0 -S mc-%i -X eval 'stuff "stop"\\015'
+ExecStop=/bin/sleep 10
+ 
+Restart=on-failure
+RestartSec=10s
+ 
+[Install]
+WantedBy=multi-user.target
+ 
+#########
+# HowTo
+#########
+#
+# Create a directory in /opt/minecraft/XX where XX is a name like 'survival'
+# Add minecraft_server.jar into dir with other conf files for minecraft server
+#
+# Enable/Start systemd service
+#    systemctl enable minecraft@survival
+#    systemctl start minecraft@survival
+#
+# To run multiple servers simply create a new dir structure and enable/start it
+#    systemctl enable minecraft@creative
+# systemctl start minecraft@creative
