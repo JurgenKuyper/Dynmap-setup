@@ -486,6 +486,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 0
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -500,6 +501,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 0
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -514,6 +516,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 0
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -528,6 +531,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 0
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -542,6 +546,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 1
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -556,6 +561,7 @@ worlds:
         mapzoomin: 2
         mapzoomout: 0
         boostzoom: 2
+        tilescale: 0
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
@@ -570,6 +576,37 @@ worlds:
         mapzoomin: 3
         mapzoomout: 0
         boostzoom: 3
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacests2
+        title: Surface-shadows-tilescale2
+        icon: images/block_world_surface_HT2.png
+        prefix: surfacests2
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        tilescale: 2
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacests4
+        title: Surface-shadows-tilescale4
+        icon: images/block_world_surface_HT4.png
+        prefix: surfacests4
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        tilescale: 4
         append_to_world: ''
         protected: false
     protected: false
@@ -630,102 +667,60 @@ worlds:
         lighting: brightnight
         mapzoomin: 3
         boostzoom: 2
--   name: world_flat_res
-    title: world_flat_resolutions
+-   name: world_resourcepacks
+    title: world_resourcepacks
     enabled: true
     extrazoomout: 2
     maps:
     -   class: org.dynmap.hdmap.HDMap
-        name: flatsvl
-        title: flat-shadows-vlowres
-        icon: images/block_world_flat_VL.png
-        prefix: flatsvl
-        perspective: iso_S_90_vlowres
-        shader: stdtexture
+        name: surfacesvh3B
+        title: Surface-shadows-vhires-boost-3-Borders
+        icon: images/block_world_surface_H3B.png
+        prefix: surfacesvh3B
+        perspective: iso_SE_60_hires
+        shader: InfestedBorders
         lighting: shadows
         image-format: default
-        mapzoomin: 2
+        mapzoomin: 3
         mapzoomout: 0
-        boostzoom: 0
+        boostzoom: 3
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
-        name: flatsl
-        title: flat-shadows-lowres
-        icon: images/block_world_flat_L.png
-        prefix: flatsl
-        perspective: iso_S_90_lowres
-        shader: stdtexture
+        name: surfacesvh3CTM
+        title: Surface-shadows-vhires-boost-3-CTM
+        icon: images/block_world_surface_H3B.png
+        prefix: surfacesvh3CTM
+        perspective: iso_SE_60_hires
+        shader: CTM
         lighting: shadows
         image-format: default
-        mapzoomin: 2
+        mapzoomin: 3
         mapzoomout: 0
-        boostzoom: 0
+        boostzoom: 3
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
-        name: flatm
-        title: Flat-shadows-medres
-        icon: images/block_world_flat_M.png
-        prefix: flatm
-        perspective: iso_S_90_medres
-        shader: stdtexture
-        lighting: default
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatsh
-        title: flat-shadows-hires
-        icon: images/block_world_flat_H.png
-        prefix: flatsh
-        perspective: iso_S_90_hires
-        shader: stdtexture
+        name: surfacesvh3BB
+        title: Surface-shadows-vhires-boost-3-BareBones
+        icon: images/block_world_surface_H3B.png
+        prefix: surfacesvh3BB
+        perspective: iso_SE_60_hires
+        shader: BareBones
         lighting: shadows
         image-format: default
-        mapzoomin: 2
+        mapzoomin: 3
         mapzoomout: 0
-        boostzoom: 0
+        boostzoom: 3
         append_to_world: ''
         protected: false
     -   class: org.dynmap.hdmap.HDMap
-        name: flatsvh1
-        title: flat-shadows-vhires-boost-1
-        icon: images/block_world_flat_H1.png
-        prefix: flatsvh1
-        perspective: iso_S_90_hires
-        shader: stdtexture
-        lighting: shadows
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 1
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatsvh2
-        title: flat-shadows-vhires-boost-2
-        icon: images/block_world_flat_H2.png
-        prefix: flatsvh2
-        perspective: iso_S_90_hires
-        shader: stdtexture
-        lighting: shadows
-        image-format: default
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 2
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatsvh3
-        title: flat-shadows-vhires-boost-3
-        icon: images/block_world_flat_H3.png
-        prefix: flatsvh3
-        perspective: iso_S_90_hires
-        shader: stdtexture
+        name: surfacesvh3DL
+        title: Surface-shadows-vhires-boost-3-DokuLight
+        icon: images/block_world_surface_H3B.png
+        prefix: surfacesvh3DL
+        perspective: iso_SE_60_hires
+        shader: DokuLight
         lighting: shadows
         image-format: default
         mapzoomin: 3
@@ -742,9 +737,230 @@ worlds:
         z0: -256
         x1: 336
         z1: 0
+    hidestyle: air
+-   name: world_flat_resourcepacks
+    title: world_flat_resourcepacks
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh3B
+        title: flat-shadows-vhires-boost-3-Borders
+        icon: images/block_world_surface_H3B.png
+        prefix: flatsvh3B
+        perspective: iso_S_90_hires
+        shader: InfestedBorders
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh3CTM
+        title: flat-shadows-vhires-boost-3-CTM
+        icon: images/block_world_surface_H3B.png
+        prefix: flatsvh3CTM
+        perspective: iso_S_90_hires
+        shader: CTM
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh3BB
+        title: flat-shadows-vhires-boost-3-BareBones
+        icon: images/block_world_surface_H3B.png
+        prefix: flatsvh3BB
+        perspective: iso_S_90_hires
+        shader: BareBones
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh3DL
+        title: flat-shadows-vhires-boost-3-DokuLight
+        icon: images/block_world_surface_H3B.png
+        prefix: flatsvh3DL
+        perspective: iso_S_90_hires
+        shader: DokuLight
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        append_to_world: ''
+        protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hidestyle: air
+-   name: world_flat_res
+    title: world_flat_resolutions
+    enabled: true
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    extrazoomout: 2
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
     hiddenlimits: [
         ]
     hidestyle: air
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvl
+        title: flat-shadows-vlowres
+        icon: images/block_world_flat_VL.png
+        prefix: flatsvl
+        perspective: iso_S_90_vlowres
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsl
+        title: flat-shadows-lowres
+        icon: images/block_world_flat_L.png
+        prefix: flatsl
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatm
+        title: Flat-shadows-medres
+        icon: images/block_world_flat_M.png
+        prefix: flatm
+        perspective: iso_S_90_medres
+        shader: stdtexture
+        lighting: default
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsh
+        title: flat-shadows-hires
+        icon: images/block_world_flat_H.png
+        prefix: flatsh
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh1
+        title: flat-shadows-vhires-boost-1
+        icon: images/block_world_flat_H1.png
+        prefix: flatsvh1
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 1
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh2
+        title: flat-shadows-vhires-boost-2
+        icon: images/block_world_flat_H2.png
+        prefix: flatsvh2
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 2
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsvh3
+        title: flat-shadows-vhires-boost-3
+        icon: images/block_world_flat_H3.png
+        prefix: flatsvh3
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        tilescale: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsts2
+        title: Flat-shadows-tilescale2
+        icon: images/block_world_flat_HT2.png
+        prefix: flatsts2
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        tilescale: 2
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatsts4
+        title: Flat-shadows-tilescale4
+        icon: images/block_world_flat_HT4.png
+        prefix: flatsts4
+        perspective: iso_S_90_hires
+        shader: stdtexture
+        lighting: shadows
+        image-format: default
+        mapzoomin: 3
+        mapzoomout: 0
+        boostzoom: 3
+        tilescale: 4
+        append_to_world: ''
+        protected: false
 -   name: world_flat_shaders
     title: world_flat_shaders
     enabled: true
@@ -1165,19 +1381,7 @@ worlds:
 -   name: Helper_Favorites
     title: Helper_Favorites
     enabled: true
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
     extrazoomout: 2
-    visibilitylimits:
-    -   x0: 80
-        z0: -256
-        x1: 336
-        z1: 0
-    hiddenlimits: [
-        ]
-    hidestyle: air
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: flat
@@ -1218,3 +1422,15 @@ worlds:
         boostzoom: 3
         append_to_world: ''
         protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: air

@@ -47,22 +47,6 @@ sets:
                 strokeOpacity: 0.0
         label: markers
         markers:
-            _sign_world_201_64_-136:
-                world: world
-                markup: true
-                x: 201.5
-                icon: sign
-                y: 64.5
-                z: -135.5
-                label: 'todo: crops<br/>path?'
-            _sign_world_221_64_-147:
-                world: world
-                markup: true
-                x: 221.5
-                icon: sign
-                y: 64.5
-                z: -146.5
-                label: 'todo: saplings<br/>todo:example tree'
             _sign_world_147_65_-120:
                 world: world
                 markup: true

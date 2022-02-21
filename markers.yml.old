@@ -47,14 +47,14 @@ sets:
                 strokeOpacity: 0.0
         label: markers
         markers:
-            _sign_world_221_64_-147:
+            _sign_world_196_64_-124:
                 world: world
                 markup: true
-                x: 221.5
+                x: 196.5
                 icon: sign
                 y: 64.5
-                z: -146.5
-                label: 'todo: saplings<br/>todo:example tree'
+                z: -123.5
+                label: pressure plates?
             _sign_world_147_65_-120:
                 world: world
                 markup: true
