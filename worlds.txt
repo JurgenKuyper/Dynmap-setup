@@ -587,7 +587,7 @@ worlds:
         perspective: iso_SE_60_hires
         shader: stdtexture
         lighting: shadows
-        image-format: default
+        image-format: jpg-q75
         mapzoomin: 3
         mapzoomout: 0
         boostzoom: 3
@@ -602,7 +602,7 @@ worlds:
         perspective: iso_SE_60_hires
         shader: stdtexture
         lighting: shadows
-        image-format: default
+        image-format: jpg-q75
         mapzoomin: 3
         mapzoomout: 0
         boostzoom: 3
@@ -939,7 +939,7 @@ worlds:
         perspective: iso_S_90_hires
         shader: stdtexture
         lighting: shadows
-        image-format: default
+        image-format: jpg-q75
         mapzoomin: 3
         mapzoomout: 0
         boostzoom: 3
@@ -954,7 +954,7 @@ worlds:
         perspective: iso_S_90_hires
         shader: stdtexture
         lighting: shadows
-        image-format: default
+        image-format: jpg-q75
         mapzoomin: 3
         mapzoomout: 0
         boostzoom: 3
@@ -1394,8 +1394,9 @@ worlds:
         mapzoomin: 5
         mapzoomout: 3
         boostzoom: 0
+        tilescale: 0
         append_to_world: ''
-        protected: false
+        protected: true
     -   class: org.dynmap.hdmap.HDMap
         name: surface
         title: Surface
@@ -1407,8 +1408,9 @@ worlds:
         mapzoomin: 3
         mapzoomout: 5
         boostzoom: 2
+        tilescale: 0
         append_to_world: ''
-        protected: false
+        protected: true
     -   class: org.dynmap.hdmap.HDMap
         name: Gene
         title: Gene
@@ -1420,9 +1422,10 @@ worlds:
         mapzoomin: 3
         mapzoomout: 3
         boostzoom: 3
+        tilescale: 0
         append_to_world: ''
-        protected: false
-    protected: false
+        protected: true
+    protected: true
     showborder: true
     sendposition: true
     sendhealth: true

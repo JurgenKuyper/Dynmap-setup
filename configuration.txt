@@ -345,7 +345,7 @@ disable-webserver: false
 allow-symlinks: true
 
 # Enable login support
-login-enabled: false
+login-enabled: true
 # Require login to access website (requires login-enabled: true)
 login-required: false
 
