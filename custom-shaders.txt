@@ -1,0 +1,15 @@
+# The user is free to add new and custom shaders here, including replacements for standard ones
+# Dynmap's install will not overwrite it
+shaders:
+    - class: org.dynmap.hdmap.TexturePackHDShader 
+      name: InfestedBorders 
+      texturepack: InfestedBorders.zip
+    - class: org.dynmap.hdmap.TexturePackHDShader 
+      name: CTM 
+      texturepack: CTM_Overhaul_V3.3.zip
+    - class: org.dynmap.hdmap.TexturePackHDShader 
+      name:  BareBones
+      texturepack: Bare+Bones+1.18.zip
+    - class: org.dynmap.hdmap.TexturePackHDShader 
+      name: DokuLight 
+      texturepack: 1.18.1-Dokucraft-Light.zip

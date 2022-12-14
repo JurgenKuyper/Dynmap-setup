@@ -1,0 +1,108 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    Boost_areas:
+        hide: true
+        circles: {
+            }
+        deficon: default
+        areas:
+            '1':
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.35
+                boostFlag: true
+                strokeWeight: 3
+                label: test
+                fillColor: 16711680
+                world: world_flat_res
+                x:
+                - 80.0
+                - 350.0
+                z:
+                - 15.0
+                - -256.0
+                ybottom: 64.0
+                strokeColor: 16711680
+                strokeOpacity: 0.8
+        label: Boost_areas
+        markers: {
+            }
+        lines: {
+            }
+        layerprio: 0
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas:
+            area_1:
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.0
+                boostFlag: true
+                strokeWeight: 3
+                label: Boost
+                fillColor: 16711935
+                world: world
+                x:
+                - 80.0
+                - 336.0
+                z:
+                - 0.0
+                - -256.0
+                ybottom: 64.0
+                strokeColor: 16711935
+                strokeOpacity: 0.0
+            area_2:
+                markup: false
+                ytop: 64.0
+                fillOpacity: 0.0
+                boostFlag: true
+                strokeWeight: 3
+                label: Boost_flat
+                fillColor: 16711935
+                world: world_flat_res
+                x:
+                - 80.0
+                - 336.0
+                z:
+                - -256.0
+                - 0.0
+                ybottom: 64.0
+                strokeColor: 16711680
+                strokeOpacity: 0.0
+        label: markers
+        markers:
+            _sign_world_111_64_-124:
+                world: world
+                markup: true
+                x: 111.5
+                icon: sign
+                y: 64.5
+                z: -123.5
+                label: 1.19 added blocks
+            _sign_world_147_65_-120:
+                world: world
+                markup: true
+                x: 147.5
+                icon: sign
+                y: 65.5
+                z: -119.5
+                label: Command Only<br/>and Impossible<br/>Blocks
+            _sign_world_195_63_-149:
+                world: world
+                markup: true
+                x: 195.5
+                icon: sign
+                y: 63.5
+                z: -148.5
+                label: custom head
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }
