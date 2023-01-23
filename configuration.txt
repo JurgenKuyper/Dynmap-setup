@@ -40,63 +40,29 @@ storage:
 components:
   - class: org.dynmap.ClientConfigurationComponent
   
-  - class: org.dynmap.InternalClientUpdateComponent
-    sendhealth: false
-    sendposition: false
-  #  allowwebchat: false
-  #  webchat-interval: 5
-  #  hidewebchatip: false
-  #  trustclientname: false
+  - class: org.dynmap.JsonFileClientUpdateComponent
+    writeinterval: 1
+    sendhealth: true
+    sendposition: true
+    allowwebchat: true
+    webchat-interval: 5
+    hidewebchatip: false
     includehiddenplayers: false
-    # (optional) if true, color codes in player display names are used
     use-name-colors: false
-    # (optional) if true, player login IDs will be used for web chat when their IPs match
-    use-player-login-ip: true
-    # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
+    use-player-login-ip: false
     require-player-login-ip: false
-    # (optional) block player login IDs that are banned from chatting
     block-banned-player-chat: true
+    hideifshadow: 0
+    hideifundercover: 0
+    hideifsneaking: false
     # Require login for web-to-server chat (requires login-enabled: true)
     webchat-requires-login: false
     # If set to true, users must have dynmap.webchat permission in order to chat
     webchat-permissions: false
     # Limit length of single chat messages
     chatlengthlimit: 256
-  #  # Optional - make players hidden when they are inside/underground/in shadows (#=light level: 0=full shadow,15=sky)
-  #  hideifshadow: 4
-  #  # Optional - make player hidden when they are under cover (#=sky light level,0=underground,15=open to sky)
-  #  hideifundercover: 14
-  #  # (Optional) if true, players that are crouching/sneaking will be hidden 
-    hideifsneaking: false
-    # If true, player positions/status is protected (login with ID with dynmap.playermarkers.seeall permission required for info other than self)
-    protected-player-info: false
-    # If true, hide players with invisibility potion effects active
     hide-if-invisiblity-potion: true
-    # If true, player names are not shown on map, chat, list
     hidenames: false
-  #- class: org.dynmap.JsonFileClientUpdateComponent
-  #  writeinterval: 1
-  #  sendhealth: true
-  #  sendposition: true
-  #  allowwebchat: true
-  #  webchat-interval: 5
-  #  hidewebchatip: false
-  #  includehiddenplayers: false
-  #  use-name-colors: false
-  #  use-player-login-ip: false
-  #  require-player-login-ip: false
-  #  block-banned-player-chat: true
-  #  hideifshadow: 0
-  #  hideifundercover: 0
-  #  hideifsneaking: false
-  #  # Require login for web-to-server chat (requires login-enabled: true)
-  #  webchat-requires-login: false
-  #  # If set to true, users must have dynmap.webchat permission in order to chat
-  #  webchat-permissions: false
-  #  # Limit length of single chat messages
-  #  chatlengthlimit: 256
-  #  hide-if-invisiblity-potion: true
-  #  hidenames: false
    
   #- class: org.dynmap.SimpleWebChatComponent
   #  allowchat: false
@@ -339,7 +305,7 @@ webserver-port: 8123
 max-sessions: 30
 
 # Disables Webserver portion of Dynmap (Advanced users only)
-disable-webserver: false
+disable-webserver: true
 
 # Enable/disable having the web server allow symbolic links (true=compatible with existing code, false=more secure (default))
 allow-symlinks: true
@@ -445,19 +411,19 @@ msg:
 # URL for client configuration (only need to be tailored for proxies or other non-standard configurations)
 url:
     # configuration URL
-    #configuration: "up/configuration"
+    configuration: "standalone/MySQL_configuration.php"
     # update URL
-    #update: "up/world/{world}/{timestamp}"
+    update: "standalone/MySQL_update.php?world={world}&ts={timestamp}"
     # sendmessage URL
-    #sendmessage: "up/sendmessage"
+    sendmessage: "standalone/MySQL_sendmessage.php"
     # login URL
-    #login: "up/login"
+    login: "standalone/MySQL_login.php"
     # register URL
-    #register: "up/register"
+    register: "standalone/MySQL_register.php"
     # tiles base URL
-    #tiles: "tiles/"
+    tiles: "standalone/MySQL_tiles.php?tile="
     # markers base URL
-    #markers: "tiles/"
+    markers: "standalone/MySQL_markers.php?marker="
 
 # Customization commands - allows scripts to be run before/after certain events
 custom-commands:

@@ -301,19 +301,7 @@ worlds:
 -   name: world_shaders
     title: world_shaders
     enabled: true
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
     extrazoomout: 2
-    visibilitylimits:
-    -   x0: 80
-        z0: -256
-        x1: 336
-        z1: 0
-    hiddenlimits: [
-        ]
-    hidestyle: air
     maps:
     -   class: org.dynmap.hdmap.HDMap
         name: surfaceov
@@ -495,6 +483,245 @@ worlds:
         tilescale: 0
         append_to_world: ''
         protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: air
+-   name: world_formats
+    title: World_formats
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacepng
+        title: Surface-png
+        icon: images/block_world_surface.png
+        prefix: surfacepng
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: png
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg
+        title: Surface-jpg
+        icon: images/block_world_surface.png
+        prefix: surfacejpg
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg75
+        title: Surface-jpg-q75
+        icon: images/block_world_surface.png
+        prefix: surfacejpg75
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q75
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg80
+        title: Surface-jpg-q80
+        icon: images/block_world_surface.png
+        prefix: surfacejpg80
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q80
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg85
+        title: Surface-jpg-q85
+        icon: images/block_world_surface.png
+        prefix: surfacejpg85
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q85
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg90
+        title: Surface-jpg-q90
+        icon: images/block_world_surface.png
+        prefix: surfacejpg90
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q90
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg95
+        title: Surface-jpg-q95
+        icon: images/block_world_surface.png
+        prefix: surfacejpg95
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q95
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacejpg100
+        title: Surface-jpg-q100
+        icon: images/block_world_surface.png
+        prefix: surfacejpg100
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q100
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp
+        title: Surface-webp
+        icon: images/block_world_surface.png
+        prefix: surfacewebp
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q75
+        title: Surface-webp-q75
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q75
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q75
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q80
+        title: Surface-webp-q80
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q80
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q80
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q85
+        title: Surface-webp-q85
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q85
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q85
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q90
+        title: Surface-webp-q90
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q90
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q90
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q95
+        title: Surface-webp-q95
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q95
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q95
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: surfacewebp-q100
+        title: Surface-webp-q100
+        icon: images/block_world_surface.png
+        prefix: surfacewebp-q100
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q100
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: air
 -   name: world
     title: world_resolutions
     enabled: true
@@ -987,6 +1214,233 @@ worlds:
     hiddenlimits: [
         ]
     hidestyle: air
+-   name: world_flat_formats
+    title: World_Flat_Formats
+    enabled: true
+    extrazoomout: 2
+    maps:
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatpng
+        title: Surface-png
+        icon: images/block_world_flat.png
+        prefix: flatpng
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: png
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg
+        title: Surface-jpg
+        icon: images/block_world_flat.png
+        prefix: flatjpg
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg75
+        title: Surface-jpg-q75
+        icon: images/block_world_flat.png
+        prefix: flatjpg75
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q75
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg80
+        title: Surface-jpg-q80
+        icon: images/block_world_flat.png
+        prefix: flatjpg80
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q80
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg85
+        title: Surface-jpg-q85
+        icon: images/block_world_flat.png
+        prefix: flatjpg85
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q85
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg90
+        title: Surface-jpg-q90
+        icon: images/block_world_flat.png
+        prefix: flatjpg90
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q90
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg95
+        title: Surface-jpg-q95
+        icon: images/block_world_flat.png
+        prefix: flatjpg95
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q95
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatjpg100
+        title: Surface-jpg-q100
+        icon: images/block_world_flat.png
+        prefix: flatjpg100
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: jpg-q100
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp
+        title: Surface-webp
+        icon: images/block_world_flat.png
+        prefix: flatwebp
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q75
+        title: Surface-webp-q75
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q75
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q75
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q80
+        title: Surface-webp-q80
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q80
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q80
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q85
+        title: Surface-webp-q85
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q85
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q85
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q90
+        title: Surface-webp-q90
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q90
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q90
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q95
+        title: Surface-webp-q95
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q95
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q95
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    -   class: org.dynmap.hdmap.HDMap
+        name: flatwebp-q100
+        title: Surface-webp-q100
+        icon: images/block_world_flat.png
+        prefix: flatwebp-q100
+        perspective: iso_SE_60_hires
+        shader: stdtexture
+        lighting: default
+        image-format: webp-q100
+        mapzoomin: 2
+        mapzoomout: 0
+        boostzoom: 0
+        append_to_world: ''
+        protected: false
+    protected: false
+    showborder: true
+    sendposition: true
+    sendhealth: true
+    visibilitylimits:
+    -   x0: 80
+        z0: -256
+        x1: 336
+        z1: 0
+    hiddenlimits: [
+        ]
+    hidestyle: air
 -   name: world_flat_shaders
     title: world_flat_shaders
     enabled: true
@@ -1452,460 +1906,6 @@ worlds:
         append_to_world: ''
         protected: true
     protected: true
-    showborder: true
-    sendposition: true
-    sendhealth: true
-    visibilitylimits:
-    -   x0: 80
-        z0: -256
-        x1: 336
-        z1: 0
-    hiddenlimits: [
-        ]
-    hidestyle: air
--   name: world_formats
-    title: World_formats
-    enabled: true
-    extrazoomout: 2
-    maps:
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacepng
-        title: Surface-png
-        icon: images/block_world_surface.png
-        prefix: surfacepng
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: png
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg
-        title: Surface-jpg
-        icon: images/block_world_surface.png
-        prefix: surfacejpg
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg75
-        title: Surface-jpg-q75
-        icon: images/block_world_surface.png
-        prefix: surfacejpg75
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q75
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg80
-        title: Surface-jpg-q80
-        icon: images/block_world_surface.png
-        prefix: surfacejpg80
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q80
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg85
-        title: Surface-jpg-q85
-        icon: images/block_world_surface.png
-        prefix: surfacejpg85
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q85
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg90
-        title: Surface-jpg-q90
-        icon: images/block_world_surface.png
-        prefix: surfacejpg90
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q90
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg95
-        title: Surface-jpg-q95
-        icon: images/block_world_surface.png
-        prefix: surfacejpg95
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q95
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacejpg100
-        title: Surface-jpg-q100
-        icon: images/block_world_surface.png
-        prefix: surfacejpg100
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q100
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp
-        title: Surface-webp
-        icon: images/block_world_surface.png
-        prefix: surfacewebp
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q75
-        title: Surface-webp-q75
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q75
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q75
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q80
-        title: Surface-webp-q80
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q80
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q80
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q85
-        title: Surface-webp-q85
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q85
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q85
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q90
-        title: Surface-webp-q90
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q90
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q90
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q95
-        title: Surface-webp-q95
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q95
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q95
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: surfacewebp-q100
-        title: Surface-webp-q100
-        icon: images/block_world_surface.png
-        prefix: surfacewebp-q100
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q100
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    protected: false
-    showborder: true
-    sendposition: true
-    sendhealth: true
-    visibilitylimits:
-    -   x0: 80
-        z0: -256
-        x1: 336
-        z1: 0
-    hiddenlimits: [
-        ]
-    hidestyle: air
--   name: world_flat_formats
-    title: World_Flat_Formats
-    enabled: true
-    extrazoomout: 2
-    maps:
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatpng
-        title: Surface-png
-        icon: images/block_world_flat.png
-        prefix: flatpng
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: png
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg
-        title: Surface-jpg
-        icon: images/block_world_flat.png
-        prefix: flatjpg
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg75
-        title: Surface-jpg-q75
-        icon: images/block_world_flat.png
-        prefix: flatjpg75
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q75
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg80
-        title: Surface-jpg-q80
-        icon: images/block_world_flat.png
-        prefix: flatjpg80
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q80
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg85
-        title: Surface-jpg-q85
-        icon: images/block_world_flat.png
-        prefix: flatjpg85
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q85
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg90
-        title: Surface-jpg-q90
-        icon: images/block_world_flat.png
-        prefix: flatjpg90
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q90
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg95
-        title: Surface-jpg-q95
-        icon: images/block_world_flat.png
-        prefix: flatjpg95
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q95
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatjpg100
-        title: Surface-jpg-q100
-        icon: images/block_world_flat.png
-        prefix: flatjpg100
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: jpg-q100
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp
-        title: Surface-webp
-        icon: images/block_world_flat.png
-        prefix: flatwebp
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q75
-        title: Surface-webp-q75
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q75
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q75
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q80
-        title: Surface-webp-q80
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q80
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q80
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q85
-        title: Surface-webp-q85
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q85
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q85
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q90
-        title: Surface-webp-q90
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q90
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q90
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q95
-        title: Surface-webp-q95
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q95
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q95
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    -   class: org.dynmap.hdmap.HDMap
-        name: flatwebp-q100
-        title: Surface-webp-q100
-        icon: images/block_world_flat.png
-        prefix: flatwebp-q100
-        perspective: iso_SE_60_hires
-        shader: stdtexture
-        lighting: default
-        image-format: webp-q100
-        mapzoomin: 2
-        mapzoomout: 0
-        boostzoom: 0
-        append_to_world: ''
-        protected: false
-    protected: false
     showborder: true
     sendposition: true
     sendhealth: true
