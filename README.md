@@ -1,3 +1,9 @@
+# Dynmap-setup
+files behind the site https://dynmap-setup.jurgenmk.nl
+# dynmap setup map sizes
+
+| world | Map name | MapID | perspective | size |
+|-------|----------|-------|-------------|------|
 | world_lightings | surfaced | 1 | iso_SE_60_hires | 16 | 15.88 MB|
 | world_lightings | surfaces | 2 | iso_SE_60_hires | 16 | 10.77 MB|
 | world_lightings | surfacestd | 3 | iso_SE_60_hires | 16 | 0.02 MB|
