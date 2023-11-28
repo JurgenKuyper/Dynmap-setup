@@ -1,132 +1,126 @@
-# Dynmap-setup
-files behind the site https://dynmap-setup.jurgenmk.nl
-# dynmap setup map sizes
-
-| world | Map name | MapID | perspective | size |
-|-------|----------|-------|-------------|------|
-world_lightings | surfaced | 1 | iso_SE_60_hires | 16 | 15.88 MB|
-world_lightings | surfaces | 2 | iso_SE_60_hires | 16 | 10.77 MB|
-world_lightings | surfacestd | 3 | iso_SE_60_hires | 16 | 0.02 MB|
-world_lightings | surfacebn | 4 | iso_SE_60_hires | 16 | 43.54 MB|
-world_lightings | surfacend | 5 | iso_SE_60_hires | 16 | 15.89 MB|
-world_lightings | surfacebnd | 6 | iso_SE_60_hires | 16 | 10.77 MB|
-world_lightings | surfacess | 7 | iso_SE_60_hires | 16 | 12.82 MB|
-world_lightings | surfacens | 8 | iso_SE_60_hires | 16 | 15.89 MB|
-world_lightings | surfacebns | 9 | iso_SE_60_hires | 16 | 21.01 MB|
-world_lightings | surfacends | 10 | iso_SE_60_hires | 16 | 30.22 MB|
-world_lightings | surfacebnds | 11 | iso_SE_60_hires | 16 | 55.82 MB|
-world_lightings | surfacec | 12 | iso_SE_60_hires | 16 | 13.84 MB|
-world_lightings | surfacegr | 13 | iso_SE_60_hires | 16 | 9.74 MB|
-world_lightings | surfacep | 14 | iso_SE_60_hires | 16 | 11.79 MB|
-world_lightings | surfacepn | 15 | iso_SE_60_hires | 16 | 13.84 MB|
-world_lightings | surfacensp | 16 | iso_SE_60_hires | 16 | 18.96 MB|
-world_lightings | surfacednsp | 17 | iso_SE_60_hires | 16 | 27.15 MB|
-world_lightings | surfacepb | 18 | iso_SE_60_hires | 16 | 31.25 MB|
-world_lightings | surfacepbbw | 19 | iso_SE_60_hires | 16 | 0.32 MB|
-world_lightings | surfacepbw | 20 | iso_SE_60_hires | 16 | 2.58 MB|
-world_shaders | surfaceov | 21 | iso_SE_60_hires | 16 | 2.58 MB|
-world_shaders | surfacefl | 22 | iso_SE_60_hires | 16 | 9.74 MB|
-world_shaders | surfaceam | 23 | iso_SE_60_hires | 16 | 9.74 MB|
-world_shaders | surfacebio | 24 | iso_SE_60_hires | 16 | 4.62 MB|
-world_shaders | surfacetemp | 25 | iso_SE_60_hires | 16 | 5.65 MB|
-world_shaders | surfacerain | 26 | iso_SE_60_hires | 16 | 2.58 MB|
-world_shaders | surfaceto | 27 | iso_SE_60_hires | 16 | 2.58 MB|
-world_shaders | surfaceto256 | 28 | iso_SE_60_hires | 16 | 2.58 MB|
-world_shaders | surfacein | 29 | iso_SE_60_hires | 16 | 1.55 MB|
-world_shaders | surfacecv | 30 | iso_SE_60_hires | 16 | 73.23 MB|
-world_shaders | surfacecs | 31 | iso_SE_60_hires | 16 | 73.23 MB|
-world_shaders | surfacestopo265-noplants | 32 | iso_SE_60_hires | 16 | 41.49 MB|
-world_formats | surfacepng | 33 | iso_SE_60_hires | 16 | 73.23 MB|
-world_formats | surfacejpg | 34 | iso_SE_60_hires | 16 | 1.55 MB|
-world_formats | surfacejpg75 | 35 | iso_SE_60_hires | 16 | 1.55 MB|
-world_formats | surfacejpg80 | 36 | iso_SE_60_hires | 16 | 291.34 MB|
-world_formats | surfacejpg85 | 37 | iso_SE_60_hires | 16 | 291.34 MB|
-world_formats | surfacejpg90 | 38 | iso_SE_60_hires | 16 | 93.71 MB|
-world_formats | surfacejpg95 | 39 | iso_SE_60_hires | 16 | 291.34 MB|
-world_formats | surfacejpg100 | 40 | iso_SE_60_hires | 16 | 21.01 MB|
-world_formats | surfacewebp | 41 | iso_SE_60_hires | 16 | 18.96 MB|
-world_formats | surfacewebp-q75 | 42 | iso_SE_60_hires | 16 | 4.62 MB|
-world_formats | surfacewebp-q80 | 43 | iso_SE_60_hires | 16 | 7.7 MB|
-world_formats | surfacewebp-q85 | 44 | iso_SE_60_hires | 16 | 4.62 MB|
-world_formats | surfacewebp-q90 | 45 | iso_SE_60_hires | 16 | 18.96 MB|
-world_formats | surfacewebp-q95 | 46 | iso_SE_60_hires | 16 | 7.7 MB|
-world_formats | surfacewebp-q100 | 47 | iso_SE_60_hires | 16 | 18.96 MB|
-world | surfacesvl | 48 | iso_SE_60_vlowres | 4 | 18.96 MB|
-world | surfacesl | 49 | iso_SE_60_lowres | 8 | 4.62 MB|
-world | surfacem | 50 | iso_SE_60_medres | 12 | 7.7 MB|
-world | surfacesh | 51 | iso_SE_60_hires | 16 | 4.62 MB|
-world | surfacesvh1 | 52 | iso_SE_60_hires | 16 | 18.96 MB|
-world | surfacesvh2 | 53 | iso_SE_60_hires | 16 | 7.7 MB|
-world | surfacesvh3 | 54 | iso_SE_60_hires | 16 | 18.96 MB|
-world | surfacests2 | 55 | iso_SE_60_hires | 16 | 18.96 MB|
-world | surfacests4 | 56 | iso_SE_60_hires | 16 | 16.91 MB|
-world_nether | flat | 57 | iso_S_90_lowres | 8 | 13.84 MB|
-world_nether | nether | 58 | iso_SE_30_hires | 16 | 14.86 MB|
-world_the_end | flat | 59 | iso_S_90_lowres | 8 | 8.72 MB|
-world_the_end | the_end | 60 | iso_SE_30_hires | 16 | 8.72 MB|
-world_resourcepacks | surfacesvh3B | 61 | iso_SE_60_hires | 16 | 14.86 MB|
-world_resourcepacks | surfacesvh3CTM | 62 | iso_SE_60_hires | 16 | 12.82 MB|
-world_resourcepacks | surfacesvh3BB | 63 | iso_SE_60_hires | 16 | 23.06 MB|
-world_resourcepacks | surfacesvh3DL | 64 | iso_SE_60_hires | 16 | 27.15 MB|
-world_flat_resourcepacks | flatsvh3B | 65 | iso_S_90_hires | 16 | 15.89 MB|
-world_flat_resourcepacks | flatsvh3CTM | 66 | iso_S_90_hires | 16 | 14.86 MB|
-world_flat_resourcepacks | flatsvh3BB | 67 | iso_S_90_hires | 16 | 3.6 MB|
-world_flat_resourcepacks | flatsvh3DL | 68 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_res | flatsvl | 69 | iso_S_90_vlowres | 4 | 3.6 MB|
-world_flat_res | flatsl | 70 | iso_S_90_lowres | 8 | 14.86 MB|
-world_flat_res | flatm | 71 | iso_S_90_medres | 12 | 5.65 MB|
-world_flat_res | flatsh | 72 | iso_S_90_hires | 16 | 14.86 MB|
-world_flat_res | flatsvh1 | 73 | iso_S_90_hires | 16 | 14.86 MB|
-world_flat_res | flatsvh2 | 74 | iso_S_90_hires | 16 | 3.6 MB|
-world_flat_res | flatsvh3 | 75 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_res | flatsts2 | 76 | iso_S_90_hires | 16 | 3.6 MB|
-world_flat_res | flatsts4 | 77 | iso_S_90_hires | 16 | 14.86 MB|
-world_flat_formats | flatpng | 78 | iso_SE_60_hires | 16 | 5.65 MB|
-world_flat_formats | flatjpg | 79 | iso_SE_60_hires | 16 | 14.86 MB|
-world_flat_formats | flatjpg75 | 80 | iso_SE_60_hires | 16 | 14.86 MB|
-world_flat_formats | flatjpg80 | 81 | iso_SE_60_hires | 16 | 13.84 MB|
-world_flat_formats | flatjpg85 | 82 | iso_SE_60_hires | 16 | 10.77 MB|
-world_flat_formats | flatjpg90 | 83 | iso_SE_60_hires | 16 | 10.77 MB|
-world_flat_formats | flatjpg95 | 84 | iso_SE_60_hires | 16 | 6.67 MB|
-world_flat_formats | flatjpg100 | 85 | iso_SE_60_hires | 16 | 6.67 MB|
-world_flat_formats | flatwebp | 86 | iso_SE_60_hires | 16 | 11.79 MB|
-world_flat_formats | flatwebp-q75 | 87 | iso_SE_60_hires | 16 | 9.74 MB|
-world_flat_formats | flatwebp-q80 | 88 | iso_SE_60_hires | 16 | 14.86 MB|
-world_flat_formats | flatwebp-q85 | 89 | iso_SE_60_hires | 16 | 23.06 MB|
-world_flat_formats | flatwebp-q90 | 90 | iso_SE_60_hires | 16 | 98.83 MB|
-world_flat_formats | flatwebp-q95 | 91 | iso_SE_60_hires | 16 | 18.96 MB|
-world_flat_formats | flatwebp-q100 | 92 | iso_SE_60_hires | 16 | 4.62 MB|
-world_flat_shaders | flatov | 93 | iso_S_90_hires | 16 | 2.58 MB|
-world_flat_shaders | flatfl | 94 | iso_S_90_hires | 16 | 16.91 MB|
-world_flat_shaders | flatam | 95 | iso_S_90_hires | 16 | 0.02 MB|
-world_flat_shaders | flatbio | 96 | iso_S_90_hires | 16 | 14.86 MB|
-world_flat_shaders | flattemp | 97 | iso_S_90_hires | 16 | 37.39 MB|
-world_flat_shaders | flatrain | 98 | iso_S_90_hires | 16 | 84.5 MB|
-world_flat_shaders | flatto | 99 | iso_S_90_hires | 16 | 185.87 MB|
-world_flat_shaders | flatto256 | 100 | iso_S_90_hires | 16 | 39.44 MB|
-world_flat_shaders | flatin | 101 | iso_S_90_hires | 16 | 73.23 MB|
-world_flat_shaders | flatcv | 102 | iso_S_90_hires | 16 | 291.34 MB|
-world_flat_shaders | flatcs | 103 | iso_S_90_hires | 16 | 0.02 MB|
-world_flat_lightings | flatd | 104 | iso_S_90_hires | 16 | 0.02 MB|
-world_flat_lightings | flats | 105 | iso_S_90_hires | 16 | 55.82 MB|
-world_flat_lightings | flatstd | 106 | iso_S_90_hires | 16 | 11.79 MB|
-world_flat_lightings | flatbn | 107 | iso_S_90_hires | 16 | 8.72 MB|
-world_flat_lightings | flatnd | 108 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_lightings | flatbnd | 109 | iso_S_90_hires | 16 | 22.03 MB|
-world_flat_lightings | flatss | 110 | iso_S_90_hires | 16 | 6.67 MB|
-world_flat_lightings | flatns | 111 | iso_S_90_hires | 16 | 23.06 MB|
-world_flat_lightings | flatbns | 112 | iso_S_90_hires | 16 | 2.58 MB|
-world_flat_lightings | flatnds | 113 | iso_S_90_hires | 16 | 2.58 MB|
-world_flat_lightings | flatbnds | 114 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_lightings | flatc | 115 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_lightings | flatgr | 116 | iso_S_90_hires | 16 | 16.91 MB|
-world_flat_lightings | flatp | 117 | iso_S_90_hires | 16 | 15.89 MB|
-world_flat_lightings | flatpn | 118 | iso_S_90_hires | 16 | 5.65 MB|
-world_flat_lightings | flatnsp | 119 | iso_S_90_hires | 16 | 12.82 MB|
-world_flat_lightings | flatdnsp | 120 | iso_S_90_hires | 16 | 12.82 MB|
-world_flat_lightings | flatpb | 121 | iso_S_90_hires | 16 | 4.62 MB|
-world_flat_lightings | flatpbbw | 122 | iso_S_90_hires | 16 | 4.62 MB|
-world_flat_lightings | flatpbw | 123 | iso_S_90_hires | 16 | 12.82 MB|
-Helper_Favorites | flat | 124 | iso_S_90_lowres | 8 | 11.79 MB|
-Helper_Favorites | surface | 125 | iso_SE_30_hires | 16 | 15.89 MB|
-Helper_Favorites | Gene | 126 | iso_SE_30_hires | 16 | 17.94 MB|
+| world_lightings | surfaced | 1 | iso_SE_60_hires | 16 | 15.88 MB|
+| world_lightings | surfaces | 2 | iso_SE_60_hires | 16 | 10.77 MB|
+| world_lightings | surfacestd | 3 | iso_SE_60_hires | 16 | 0.02 MB|
+| world_lightings | surfacebn | 4 | iso_SE_60_hires | 16 | 43.54 MB|
+| world_lightings | surfacend | 5 | iso_SE_60_hires | 16 | 15.89 MB|
+| world_lightings | surfacebnd | 6 | iso_SE_60_hires | 16 | 10.77 MB|
+| world_lightings | surfacess | 7 | iso_SE_60_hires | 16 | 12.82 MB|
+| world_lightings | surfacens | 8 | iso_SE_60_hires | 16 | 15.89 MB|
+| world_lightings | surfacebns | 9 | iso_SE_60_hires | 16 | 21.01 MB|
+| world_lightings | surfacends | 10 | iso_SE_60_hires | 16 | 30.22 MB|
+| world_lightings | surfacebnds | 11 | iso_SE_60_hires | 16 | 55.82 MB|
+| world_lightings | surfacec | 12 | iso_SE_60_hires | 16 | 13.84 MB|
+| world_lightings | surfacegr | 13 | iso_SE_60_hires | 16 | 9.74 MB|
+| world_lightings | surfacep | 14 | iso_SE_60_hires | 16 | 11.79 MB|
+| world_lightings | surfacepn | 15 | iso_SE_60_hires | 16 | 13.84 MB|
+| world_lightings | surfacensp | 16 | iso_SE_60_hires | 16 | 18.96 MB|
+| world_lightings | surfacednsp | 17 | iso_SE_60_hires | 16 | 27.15 MB|
+| world_lightings | surfacepb | 18 | iso_SE_60_hires | 16 | 31.25 MB|
+| world_lightings | surfacepbbw | 19 | iso_SE_60_hires | 16 | 0.32 MB|
+| world_lightings | surfacepbw | 20 | iso_SE_60_hires | 16 | 2.58 MB|
+| world_shaders | surfaceov | 21 | iso_SE_60_hires | 16 | 2.58 MB|
+| world_shaders | surfacefl | 22 | iso_SE_60_hires | 16 | 9.74 MB|
+| world_shaders | surfaceam | 23 | iso_SE_60_hires | 16 | 9.74 MB|
+| world_shaders | surfacebio | 24 | iso_SE_60_hires | 16 | 4.62 MB|
+| world_shaders | surfacetemp | 25 | iso_SE_60_hires | 16 | 5.65 MB|
+| world_shaders | surfacerain | 26 | iso_SE_60_hires | 16 | 2.58 MB|
+| world_shaders | surfaceto | 27 | iso_SE_60_hires | 16 | 2.58 MB|
+| world_shaders | surfaceto256 | 28 | iso_SE_60_hires | 16 | 2.58 MB|
+| world_shaders | surfacein | 29 | iso_SE_60_hires | 16 | 1.55 MB|
+| world_shaders | surfacecv | 30 | iso_SE_60_hires | 16 | 73.23 MB|
+| world_shaders | surfacecs | 31 | iso_SE_60_hires | 16 | 73.23 MB|
+| world_shaders | surfacestopo265-noplants | 32 | iso_SE_60_hires | 16 | 41.49 MB|
+| world_formats | surfacepng | 33 | iso_SE_60_hires | 16 | 73.23 MB|
+| world_formats | surfacejpg | 34 | iso_SE_60_hires | 16 | 1.55 MB|
+| world_formats | surfacejpg75 | 35 | iso_SE_60_hires | 16 | 1.55 MB|
+| world_formats | surfacejpg80 | 36 | iso_SE_60_hires | 16 | 291.34 MB|
+| world_formats | surfacejpg85 | 37 | iso_SE_60_hires | 16 | 291.34 MB|
+| world_formats | surfacejpg90 | 38 | iso_SE_60_hires | 16 | 93.71 MB|
+| world_formats | surfacejpg95 | 39 | iso_SE_60_hires | 16 | 291.34 MB|
+| world_formats | surfacejpg100 | 40 | iso_SE_60_hires | 16 | 21.01 MB|
+| world_formats | surfacewebp | 41 | iso_SE_60_hires | 16 | 18.96 MB|
+| world_formats | surfacewebp-q75 | 42 | iso_SE_60_hires | 16 | 4.62 MB|
+| world_formats | surfacewebp-q80 | 43 | iso_SE_60_hires | 16 | 7.7 MB|
+| world_formats | surfacewebp-q85 | 44 | iso_SE_60_hires | 16 | 4.62 MB|
+| world_formats | surfacewebp-q90 | 45 | iso_SE_60_hires | 16 | 18.96 MB|
+| world_formats | surfacewebp-q95 | 46 | iso_SE_60_hires | 16 | 7.7 MB|
+| world_formats | surfacewebp-q100 | 47 | iso_SE_60_hires | 16 | 18.96 MB|
+| world | surfacesvl | 48 | iso_SE_60_vlowres | 4 | 18.96 MB|
+| world | surfacesl | 49 | iso_SE_60_lowres | 8 | 4.62 MB|
+| world | surfacem | 50 | iso_SE_60_medres | 12 | 7.7 MB|
+| world | surfacesh | 51 | iso_SE_60_hires | 16 | 4.62 MB|
+| world | surfacesvh1 | 52 | iso_SE_60_hires | 16 | 18.96 MB|
+| world | surfacesvh2 | 53 | iso_SE_60_hires | 16 | 7.7 MB|
+| world | surfacesvh3 | 54 | iso_SE_60_hires | 16 | 18.96 MB|
+| world | surfacests2 | 55 | iso_SE_60_hires | 16 | 18.96 MB|
+| world | surfacests4 | 56 | iso_SE_60_hires | 16 | 16.91 MB|
+| world_nether | flat | 57 | iso_S_90_lowres | 8 | 13.84 MB|
+| world_nether | nether | 58 | iso_SE_30_hires | 16 | 14.86 MB|
+| world_the_end | flat | 59 | iso_S_90_lowres | 8 | 8.72 MB|
+| world_the_end | the_end | 60 | iso_SE_30_hires | 16 | 8.72 MB|
+| world_resourcepacks | surfacesvh3B | 61 | iso_SE_60_hires | 16 | 14.86 MB|
+| world_resourcepacks | surfacesvh3CTM | 62 | iso_SE_60_hires | 16 | 12.82 MB|
+| world_resourcepacks | surfacesvh3BB | 63 | iso_SE_60_hires | 16 | 23.06 MB|
+| world_resourcepacks | surfacesvh3DL | 64 | iso_SE_60_hires | 16 | 27.15 MB|
+| world_flat_resourcepacks | flatsvh3B | 65 | iso_S_90_hires | 16 | 15.89 MB|
+| world_flat_resourcepacks | flatsvh3CTM | 66 | iso_S_90_hires | 16 | 14.86 MB|
+| world_flat_resourcepacks | flatsvh3BB | 67 | iso_S_90_hires | 16 | 3.6 MB|
+| world_flat_resourcepacks | flatsvh3DL | 68 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_res | flatsvl | 69 | iso_S_90_vlowres | 4 | 3.6 MB|
+| world_flat_res | flatsl | 70 | iso_S_90_lowres | 8 | 14.86 MB|
+| world_flat_res | flatm | 71 | iso_S_90_medres | 12 | 5.65 MB|
+| world_flat_res | flatsh | 72 | iso_S_90_hires | 16 | 14.86 MB|
+| world_flat_res | flatsvh1 | 73 | iso_S_90_hires | 16 | 14.86 MB|
+| world_flat_res | flatsvh2 | 74 | iso_S_90_hires | 16 | 3.6 MB|
+| world_flat_res | flatsvh3 | 75 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_res | flatsts2 | 76 | iso_S_90_hires | 16 | 3.6 MB|
+| world_flat_res | flatsts4 | 77 | iso_S_90_hires | 16 | 14.86 MB|
+| world_flat_formats | flatpng | 78 | iso_SE_60_hires | 16 | 5.65 MB|
+| world_flat_formats | flatjpg | 79 | iso_SE_60_hires | 16 | 14.86 MB|
+| world_flat_formats | flatjpg75 | 80 | iso_SE_60_hires | 16 | 14.86 MB|
+| world_flat_formats | flatjpg80 | 81 | iso_SE_60_hires | 16 | 13.84 MB|
+| world_flat_formats | flatjpg85 | 82 | iso_SE_60_hires | 16 | 10.77 MB|
+| world_flat_formats | flatjpg90 | 83 | iso_SE_60_hires | 16 | 10.77 MB|
+| world_flat_formats | flatjpg95 | 84 | iso_SE_60_hires | 16 | 6.67 MB|
+| world_flat_formats | flatjpg100 | 85 | iso_SE_60_hires | 16 | 6.67 MB|
+| world_flat_formats | flatwebp | 86 | iso_SE_60_hires | 16 | 11.79 MB|
+| world_flat_formats | flatwebp-q75 | 87 | iso_SE_60_hires | 16 | 9.74 MB|
+| world_flat_formats | flatwebp-q80 | 88 | iso_SE_60_hires | 16 | 14.86 MB|
+| world_flat_formats | flatwebp-q85 | 89 | iso_SE_60_hires | 16 | 23.06 MB|
+| world_flat_formats | flatwebp-q90 | 90 | iso_SE_60_hires | 16 | 98.83 MB|
+| world_flat_formats | flatwebp-q95 | 91 | iso_SE_60_hires | 16 | 18.96 MB|
+| world_flat_formats | flatwebp-q100 | 92 | iso_SE_60_hires | 16 | 4.62 MB|
+| world_flat_shaders | flatov | 93 | iso_S_90_hires | 16 | 2.58 MB|
+| world_flat_shaders | flatfl | 94 | iso_S_90_hires | 16 | 16.91 MB|
+| world_flat_shaders | flatam | 95 | iso_S_90_hires | 16 | 0.02 MB|
+| world_flat_shaders | flatbio | 96 | iso_S_90_hires | 16 | 14.86 MB|
+| world_flat_shaders | flattemp | 97 | iso_S_90_hires | 16 | 37.39 MB|
+| world_flat_shaders | flatrain | 98 | iso_S_90_hires | 16 | 84.5 MB|
+| world_flat_shaders | flatto | 99 | iso_S_90_hires | 16 | 185.87 MB|
+| world_flat_shaders | flatto256 | 100 | iso_S_90_hires | 16 | 39.44 MB|
+| world_flat_shaders | flatin | 101 | iso_S_90_hires | 16 | 73.23 MB|
+| world_flat_shaders | flatcv | 102 | iso_S_90_hires | 16 | 291.34 MB|
+| world_flat_shaders | flatcs | 103 | iso_S_90_hires | 16 | 0.02 MB|
+| world_flat_lightings | flatd | 104 | iso_S_90_hires | 16 | 0.02 MB|
+| world_flat_lightings | flats | 105 | iso_S_90_hires | 16 | 55.82 MB|
+| world_flat_lightings | flatstd | 106 | iso_S_90_hires | 16 | 11.79 MB|
+| world_flat_lightings | flatbn | 107 | iso_S_90_hires | 16 | 8.72 MB|
+| world_flat_lightings | flatnd | 108 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_lightings | flatbnd | 109 | iso_S_90_hires | 16 | 22.03 MB|
+| world_flat_lightings | flatss | 110 | iso_S_90_hires | 16 | 6.67 MB|
+| world_flat_lightings | flatns | 111 | iso_S_90_hires | 16 | 23.06 MB|
+| world_flat_lightings | flatbns | 112 | iso_S_90_hires | 16 | 2.58 MB|
+| world_flat_lightings | flatnds | 113 | iso_S_90_hires | 16 | 2.58 MB|
+| world_flat_lightings | flatbnds | 114 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_lightings | flatc | 115 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_lightings | flatgr | 116 | iso_S_90_hires | 16 | 16.91 MB|
+| world_flat_lightings | flatp | 117 | iso_S_90_hires | 16 | 15.89 MB|
+| world_flat_lightings | flatpn | 118 | iso_S_90_hires | 16 | 5.65 MB|
+| world_flat_lightings | flatnsp | 119 | iso_S_90_hires | 16 | 12.82 MB|
+| world_flat_lightings | flatdnsp | 120 | iso_S_90_hires | 16 | 12.82 MB|
+| world_flat_lightings | flatpb | 121 | iso_S_90_hires | 16 | 4.62 MB|
+| world_flat_lightings | flatpbbw | 122 | iso_S_90_hires | 16 | 4.62 MB|
+| world_flat_lightings | flatpbw | 123 | iso_S_90_hires | 16 | 12.82 MB|
+| Helper_Favorites | flat | 124 | iso_S_90_lowres | 8 | 11.79 MB|
+| Helper_Favorites | surface | 125 | iso_SE_30_hires | 16 | 15.89 MB|
+| Helper_Favorites | Gene | 126 | iso_SE_30_hires | 16 | 17.94 MB|
